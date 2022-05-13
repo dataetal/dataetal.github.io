@@ -20,6 +20,7 @@ Table Of Contents:
 - Back To Top Button 
 - Extra Pages
 - Media Queries
+- Customers
 ******************************************/
 
 /*****************************************
@@ -1665,3 +1666,27 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*********************/
+/*     Customers     */
+/*********************/
+.customers {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	text-align: center;
+}
+
+.customers h3 {
+	margin-bottom: 2rem;
+}
+
+.customers .card {
+	margin-right: 2rem;
+	margin-bottom: 2.5rem;
+	margin-left: 2rem;
+}
